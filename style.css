@@ -17,7 +17,7 @@ a {
    color: rgb(7, 122, 122);
 }
 
-p, li {
+p, li, time{
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 16px;
    color: rgb(60, 71, 71);
@@ -30,17 +30,29 @@ hr {
    background-color: cornflowerblue;
 }
 
-span {
-   text-transform: uppercase;
-   font-size: 20px;
-   color:rgb(253, 51, 0);
+.contact-info ul {
+   padding-inline-start: 0;
+}
+.contact-info li {
+   list-style: none;
 }
 
-.contact {
+.wrapper {
    display: flex;
    justify-content: space-between;
 }
 
 img {
    width: 20%;
+}
+
+footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 20px;
+}
+
+footer img{
+   width: 48px;
 }
